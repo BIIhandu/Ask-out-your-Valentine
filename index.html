@@ -78,15 +78,15 @@
         yesButton.style.height = `${buttonHeight}px`; // Update button height
         yesButton.style.width = `${buttonWidth}px`;
         yesButton.style.fontSize = `${fontSize}px`; // Update font size
-        if (noClickCount < 6) {
-          noButton.textContent = ["No", "Are you sure?", "Pookie please", "Don't do this to me :(", "You're breaking my heart", "I'm gonna cry..."][noClickCount];
+        if (noClickCount < 8) {
+          noButton.textContent = ["No", "Are you sure?", "deuuniiiiii come on", "you think im GAY :(", "broke my heart", "i know you want to...", "no cupcakes then", "🙃"][noClickCount];
         }
       }
     });
   
     yesButton.addEventListener('click', () => {
       imageDisplay.src = './images/image7.gif'; // Change to image7.gif
-      valentineQuestion.textContent = "Yayyy!! :3"; // Change the question text
+      valentineQuestion.textContent = "yayyyyyyyyyyyyyyyy!! ill see you then with my 4% love :3"; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
     });
